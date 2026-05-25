@@ -1,48 +1,109 @@
-Pomodoro Timer — Chrome Extension
+# ⏱️ Pomodoro Timer — Chrome Extension
 
-Overview
+> A lightweight, focus-boosting Pomodoro timer with task management and smart notifications.
 
-A lightweight Pomodoro timer extension with task management, configurable session duration, and desktop notifications.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-green.svg)](https://chrome.google.com/webstore)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/venkatesh-jajula/pomodoro-timer)
 
-What's included
+---
 
-- `manifest.json` — extension manifest (MV3)
-- `background.js` — service worker using `chrome.alarms` and persisted timer state
-- `popup/` — UI for timer and tasks (`popup.html`, `popup.css`, `popup.js`)
-- `options/` — settings page (`options.html`, `options.css`, `options.js`)
+## ✨ Features
 
-Quick install (local testing)
+| Feature | Description |
+|---------|-------------|
+| ⏰ **Customizable Timer** | Set duration from 1–60 minutes with quick presets (5, 15, 25, 45, 60 min) |
+| 📝 **Task Management** | Add, view, and delete tasks directly in the popup |
+| 🔔 **Smart Notifications** | Get desktop notifications when your session ends |
+| ⚙️ **Persistent Settings** | Your preferences and task list sync across Chrome restarts |
+| 🎯 **Focused Design** | Clean, minimal UI optimized for productivity |
+| 🔒 **Privacy First** | All data stored locally—zero external tracking |
 
-1. Open `chrome://extensions/` in Chrome.
-2. Enable "Developer mode".
-3. Click "Load unpacked" and select this project folder (the folder that contains `manifest.json`).
+---
 
-Recommended pre-publish checks
+## 📦 What's Included
 
-- Test start / stop / reset with the popup open and closed.
-- Test notification delivery and click behavior.
-- Test settings persistence and that changes reset running timers as expected.
-- Check that tasks are saved and loaded correctly across Chrome restarts.
+```
+pomodoro-timer/
+├── manifest.json          # Chrome extension manifest (MV3)
+├── background.js          # Service worker with timer logic & alarms
+├── popup/
+│   ├── popup.html        # Timer controls & task UI
+│   ├── popup.css         # Popup styling
+│   └── popup.js          # Popup logic & storage sync
+├── options/
+│   ├── options.html      # Settings page
+│   ├── options.css       # Options styling
+│   └── options.js        # Settings logic
+├── LICENSE               # MIT License
+├── README.md             # This file
+└── PRIVACY.md            # Privacy policy
+```
 
-Publishing checklist (Chrome Web Store)
+---
 
-- Remove any unnecessary permissions (manifest already minimizes host access).
-- Provide store assets: feature image, screenshots showing the popup and options page.
-- Prepare a privacy policy URL (a simple `PRIVACY.md` is included for local reference — host it on your website or GitHub Pages for the store listing).
-- Fill in support contact info and accurate extension description in the developer dashboard.
+## 🚀 Quick Install (Local Testing)
 
-GitHub
+1. **Clone or download** this repository
+2. Open `chrome://extensions/` in Chrome
+3. Enable **"Developer mode"** (toggle in top right)
+4. Click **"Load unpacked"**
+5. Select the project folder (containing `manifest.json`)
+6. Done! Click the extension icon in your toolbar to start
 
-- Commit the project files and push to a repository.
-- Add the `README.md` and `PRIVACY.md` to the repo root.
-- Optionally add a small `CHANGELOG.md` and `LICENSE`.
+---
 
-Notes & Known improvements
+## 🎮 How to Use
 
-- Icons: currently using `icon.png`. Consider adding separate sized icons (16/48/128) for better store presentation.
-- Badge/shortcuts and break cycles are not implemented — listed in TODO.
+1. **Open the popup** — Click the extension icon
+2. **Set duration** — Click ⚙️ to customize (1–60 minutes)
+3. **Manage tasks** — Add tasks to your session list
+4. **Start timer** — Click **Start** button
+5. **Close & continue** — Timer runs even when popup is closed
+6. **Get notified** — Desktop notification when time's up
 
-If you want, I can:
-- Add a published-ready `privacy_policy.html` and instructions to host it (GitHub Pages).
-- Implement badges and keyboard shortcuts.
-- Generate placeholder screenshots and a small release pipeline.
+---
+
+## ✅ Pre-Publish Checklist
+
+- [ ] Test start/stop/reset with popup open and closed
+- [ ] Verify notification delivery and click behavior
+- [ ] Confirm settings persist after Chrome restart
+- [ ] Check that tasks save/load correctly
+- [ ] Review privacy policy and update contact info
+- [ ] Prepare store screenshots and feature image
+
+---
+
+## 🌐 Chrome Web Store Publishing
+
+**Coming soon!** To publish:
+
+1. Create a [Chrome Developer Account](https://chrome.google.com/webstore/developer/dashboard)
+2. Pay $5 one-time fee
+3. Host privacy policy (use `PRIVACY.md` or `privacy_policy.html`)
+4. Upload screenshots (1280x720 recommended)
+5. Submit for review (~2–7 days)
+
+---
+
+## 📄 License & Privacy
+
+- **License:** MIT — See [LICENSE](LICENSE)
+- **Privacy:** See [PRIVACY.md](PRIVACY.md) — We store data locally only
+
+---
+
+## 🤝 Contributing
+
+Found a bug or have a feature request? Open an issue or submit a pull request!
+
+**Repository:** [venkatesh-jajula/pomodoro-timer](https://github.com/venkatesh-jajula/pomodoro-timer)
+
+---
+
+<div align="center">
+
+**Made with ❤️ for productivity**
+
+</div>
