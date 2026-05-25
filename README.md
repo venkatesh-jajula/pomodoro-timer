@@ -3,7 +3,6 @@
 > A lightweight, focus-boosting Pomodoro timer with task management and smart notifications.
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-green.svg)](https://chrome.google.com/webstore)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/venkatesh-jajula/pomodoro-timer)
 
 ---
 
