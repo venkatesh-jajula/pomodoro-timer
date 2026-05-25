@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Timer Section -->
+        <div class="timer-section">
+            <h1>Pomodoro Timer</h1>
+                <div class="timer-display" id="timerDisplay" role="timer" aria-live="polite" aria-atomic="true">25:00</div>
+            
+                <div class="controls" role="group" aria-label="Timer controls">
+                    <button id="startBtn" class="btn btn-primary" type="button">Start</button>
+                    <button id="stopBtn" class="btn btn-danger" type="button" disabled>Stop</button>
+                    <button id="resetBtn" class="btn btn-secondary" type="button">Reset</button>
+                </div>
+            
+                <a href="#" id="settingsLink" class="settings-link" role="button" aria-label="Open settings">⚙️ Settings</a>
+        </div>
+
+        <!-- Task Management Section -->
+        <div class="tasks-section">
+            <h2>Tasks</h2>
+            
+            <div class="task-input">
+                <label for="taskInput" class="sr-only">Task</label>
+                <input 
+                    type="text" 
+                    id="taskInput" 
+                    placeholder="Add a task..."
+                    class="input-field"
+                    aria-label="Task description"
+                >
+                <button id="addTaskBtn" class="btn btn-small" type="button">Add</button>
+            </div>
+
+            <ul id="taskList" class="task-list" role="list">
+                <!-- Tasks will be added here dynamically -->
+            </ul>
+            
+            <div id="emptyState" class="empty-state">
+                No tasks yet. Start by adding one!
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
