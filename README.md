@@ -64,29 +64,6 @@ pomodoro-timer/
 
 ---
 
-## ✅ Pre-Publish Checklist
-
-- [ ] Test start/stop/reset with popup open and closed
-- [ ] Verify notification delivery and click behavior
-- [ ] Confirm settings persist after Chrome restart
-- [ ] Check that tasks save/load correctly
-- [ ] Review privacy policy and update contact info
-- [ ] Prepare store screenshots and feature image
-
----
-
-## 🌐 Chrome Web Store Publishing
-
-**Coming soon!** To publish:
-
-1. Create a [Chrome Developer Account](https://chrome.google.com/webstore/developer/dashboard)
-2. Pay $5 one-time fee
-3. Host privacy policy (use `PRIVACY.md` or `privacy_policy.html`)
-4. Upload screenshots (1280x720 recommended)
-5. Submit for review (~2–7 days)
-
----
-
 ## 📄 License & Privacy
 
 - **License:** MIT — See [LICENSE](LICENSE)
