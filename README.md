@@ -2,7 +2,6 @@
 
 > A lightweight, focus-boosting Pomodoro timer with task management and smart notifications.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-green.svg)](https://chrome.google.com/webstore)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/venkatesh-jajula/pomodoro-timer)
 
@@ -63,6 +62,17 @@ pomodoro-timer/
 6. **Get notified** — Desktop notification when time's up
 
 ---
+
+## Screenshots
+- Popup screen
+<img width="454" height="505" alt="image" src="https://github.com/user-attachments/assets/22e0a24a-0333-456e-9cd0-60920153670a" />
+
+- Options page
+<img width="1919" height="986" alt="image" src="https://github.com/user-attachments/assets/80755d66-dc19-46c3-b7a6-038ae8ddf76b" />
+
+- Notification example
+<img width="495" height="244" alt="image" src="https://github.com/user-attachments/assets/e271d52f-2ac2-44ae-b6ff-8cad679c003a" />
+
 
 ## 📄 License & Privacy
 
